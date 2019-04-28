@@ -38,3 +38,6 @@ sites/*/translations
  /modules 
  /profiles 
  /scripts
+ 
+ #Ignore folders
+ /_backup
