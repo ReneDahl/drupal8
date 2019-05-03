@@ -1,4 +1,83 @@
 #header {
-  background-color: #CDBE79 !important;
-  background-image: linear-gradient(to bottom, #CDBE79 0%, #CDBE79 100%) !important;
+  
+	
+	background-image:url("../images/cover.png") !important;
+	
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	object-fit: cover;
+	height:300px;
+	width:100%;
+	
+   
 }
+
+#page hr:first-of-type{display:none;}
+
+.site-branding__text
+{
+	color:black !important;
+}
+
+.site-branding__name
+{
+		margin-top:-75px;
+		font-size:30pt;
+		
+
+}
+
+.site-branding__logo
+{
+	width:100px;
+	margin-top:-150px;
+}
+
+.block-menu .menu
+{
+	font-size: 0.929em;
+    margin: 0;
+    padding: 0 20px 170px;
+}
+
+.CreatedBy
+{
+	text-decoration:underline;
+	font-weight:bold;
+}
+
+.article
+{
+
+background-color:#f6f6f2;
+	border-radius: 25px;
+}
+
+.article_content
+{
+
+	width:80%;
+	
+	margin:0 auto;
+	padding-top:10px;
+
+}
+
+.group-left
+{
+	
+	margin-left:-10px;
+
+}
+.group-right
+{
+	
+	margin-left:10px;
+
+}
+
+
+
+
+   

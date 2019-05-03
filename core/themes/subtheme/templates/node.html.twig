@@ -78,6 +78,8 @@
   ]
 %}
 {{ attach_library('classy/node') }}
+<div class="article">
+<div class="article_content">
 <article{{ attributes.addClass(classes) }}>
   <header>
     {{ title_prefix }}
@@ -91,13 +93,19 @@
       <div class="node__meta">
         {{ author_picture }}
         <span{{ author_attributes }}>
-          {% trans %}Submitted by {{ author_name }} on {{ date }}{% endtrans %}
+          {% trans %}<span class="CreatedBy">Created by</span> {{ author_name }} on {{ date }}{% endtrans %}
         </span>
         {{ metadata }}
       </div>
     {% endif %}
   </header>
+ <!--Content node-->
   <div{{ content_attributes.addClass('node__content', 'clearfix') }}>
-    {{ content }}
+    
+	{{ content }}
   </div>
 </article>
+</div>
+
+
+</div>
